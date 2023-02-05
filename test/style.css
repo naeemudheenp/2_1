@@ -1,0 +1,110 @@
+:root{
+    --primaryColor:#19B885;
+}
+.html,body{
+    margin: 0%;
+    padding: 0%;
+    font-size: 12px;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+/* For Mobile Screen . Tested on Iphone Se 375x667*/
+
+/* navbar begins here */
+.section_navbar{
+    margin-left: 5%;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    min-height: 10vh;
+    max-height: 46vh;
+   
+   
+    
+}
+.section_navbar_container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 2%;
+}
+.section_navbar_container_logo{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.section_navbar_container_menu{
+    display: flex;
+    align-items: center;
+    min-width: 5vw;
+    
+   
+    
+}
+.section_navbar_links{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    max-height: 0;
+    transition: height 2s ;
+   
+    
+
+}
+.section_navbar_links>a{
+    border-top: solid rgba(0,0,0,0.3); ;
+    padding: 3%;
+    min-width: 85vw;
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    min-height: 3vh;
+    
+}
+.section_navbar_button{
+    border-top: solid rgba(0,0,0,0.3); ;
+    padding: 2%;
+    min-width: 85vw;
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    
+}
+.section_navbar_button>button{
+    border: none;
+    background-color: var(--primaryColor);
+    border-radius: 5px;
+    min-width: 25vw;
+    min-height: 5vh;
+    color: white ;
+}
+.section_navbar_links_toggle{
+    display: flex;
+    background-color: white;
+    z-index: 100;
+    min-height: 35vh;
+    max-height: 35vh;
+    min-height: 35vh;
+
+    
+}
+
+.section_navbar_button_desk{
+    visibility: hidden;
+   
+    
+}
+.section_navbar_button_desk>button{
+  
+    visibility: hidden;
+    
+}
+/* navbar ends here */
+
+/*Mobile Screen Ends Here*/
