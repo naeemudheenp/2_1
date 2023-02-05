@@ -9,7 +9,7 @@
     overflow-x: hidden;
     
 }
-
+/*done */
 /* For Mobile Screen . Tested on Iphone Se 375x667*/
 
 /* navbar begins here */
@@ -97,6 +97,7 @@
    
     
 }
+
 .section_navbar_button_desk>button{
   
     visibility: hidden;
