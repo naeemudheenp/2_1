@@ -1,0 +1,179 @@
+<html>
+    <head>
+        <title>Sample Page 2</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/page_single-recipes.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!--NavBar Begins Here-->
+        <div class="section_navbar">
+            <div class="section_navbar_container">
+                <div class="section_navbar_container_logo">
+                    <img src="./assets/logo.svg" alt="logo" height="50px" width="150px">
+                </div>
+                <div class="section_navbar_container_menu">
+                    <i id="menuButton" class="fa-solid fa-bars  fa-2x section_navbars_menu_toggle" aria-hidden="true" onclick="navBarMenu_onClick()"></i>
+                </div>
+                
+                
+            </div>
+            <div id="sectionLink" class="section_navbar_links">
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./tags.html">Tags</a>
+                <a href="./recipes.html">Recipes</a>
+                <div class="section_navbar_button">
+                    <button><a href="./contact.html" style="text-decoration: none;color:white ">Contact</a></button>
+                </div>
+                
+            </div>
+            <div class="section_navbar_button_desk">
+                <button><a href="./contact.html" style="text-decoration: none;color:white ">Contact</a></button>
+            </div>
+
+        </div>
+        <!--NavBar Ends Here-->
+
+
+
+        <!--Page Begins Here-->
+
+            <div class="section_page">
+                
+             <section class="recipe_details_container">
+                <div class="recipe_details_img">
+                    <img src="./assets/recipes/recipe-1.jpeg" alt="recipe">
+                </div>
+                <div class="recipe_details_text">
+                    <h1>Banana Cake</h1>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. I
+                        t was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <div class="recipe_details_timer">
+                        <div class="recipe_detaile_singleclock">
+                            <i class="fa-solid fa-clock fa-2x"></i>
+                            <div>Prep Time</div>
+                            <div>30 min</div>
+                        </div>
+                        <div class="recipe_detaile_singleclock">
+                            <i class="fa-solid fa-clock-rotate-left fa-2x"></i>
+                            
+                            <div>Cook Time</div>
+                            <div>30 min</div>
+                        </div>
+
+                        <div class="recipe_detaile_singleclock">
+                            <i class="fa-solid fa-person fa-2x"></i>
+                            <div>Servings</div>
+                            <div>6</div>
+                        </div>
+                    </div>
+
+                    <div class="recipe_details_tags">
+                        Tags:
+                        <div class="single_tag">Beef</div>
+                        <div class="single_tag">Pancakes</div>
+                        <div class="single_tag">BreakFast</div>
+                        <div class="single_tag">Food</div>
+                    </div>
+                </div>
+
+             </section>
+
+             <section class="ingrd_details_container">
+                <div class="ingrd_intructions_conatiner">
+                    <h3>Instructions</h3>
+                    <div class="single_step_card">
+                        <div class="title_line">
+                            
+                            <p>STEP 1 </p>
+                            <div class="line"></div>
+                            
+                        </div>
+                        <div class="title_text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </div>
+                    </div>
+
+
+                    <div class="single_step_card">
+                        <div class="title_line">
+                            
+                            <p>STEP 2 </p>
+                            <div class="line"></div>
+                            
+                        </div>
+                        <div class="title_text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </div>
+                    </div>
+
+                    <div class="single_step_card">
+                        <div class="title_line">
+                            
+                            <p>STEP 3 </p>
+                            <div class="line"></div>
+                            
+                        </div>
+                        <div class="title_text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </div>
+                    </div>
+                </div>
+                <div class="ingrd_ingrd_conatiner">
+                    
+                    <div class="ingrd">
+                        <h3>Ingredients</h3>
+                        <ul>
+                            <li>1 1/2 cups dry pancake mix</li>
+                            <li>1 1/2 cup seed meal</li>
+                            <li>1 cup milk</li>
+                        </ul>
+                    </div>
+                    <div class="tools">
+                       
+                            <h3>Tools</h3>
+                            <ul>
+                                <li>Hand Blender</li>
+                                <li>Cup</li>
+                                <li>Spoons</li>
+                            </ul>
+                        
+
+                    </div>
+                </div>
+
+             </section>
+             
+            </div>
+
+        <!--Page Ends Here-->
+
+
+
+
+
+
+
+        <!--Footer Begins Here-->
+        <div class="section_footer">
+            
+               <div class="section_footer_text">
+                &#169; <span id="sectionDate"></span> <a>SimpleRecipes</a> Build By <a>Naeemudheen P</a>
+               </div>
+            
+        </div>
+        <!--Footer Ends Here-->
+        
+        <!--Script Files Begins Here-->
+        <script type="text/javascript" src="./js/main.js"></script>
+        <!--Script Files Ends Here-->
+        
+    </body>
+</html>

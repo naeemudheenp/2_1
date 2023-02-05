@@ -1,0 +1,53 @@
+:root{
+    --primaryColor:#19B885;
+}
+.html,body{
+    margin: 0%;
+    padding: 0%;
+    font-size: 12px;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+/* For Mobile Screen . Tested on Iphone Se 375x667*/
+
+/* footer begins here */
+.section_footer{
+    background-color: black ;
+    display: flex;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 7vh;
+    max-height: 7vh;
+    margin-bottom: 0%;
+    margin-bottom: 0%;
+   
+    
+}
+.section_footer a{
+    color: var(--primaryColor);
+    font-weight: bold ;
+    
+
+}
+
+.section_footer_text{
+    text-align: center;
+    
+    
+}
+/* footer ends here */
+
+/*Mobile Screen Ends Here*/
+
+/*Bigscreen begins here */
+@media only screen and (min-width: 992px) {
+    /* footer begins here */
+
+/* footer ends here */
+}
+/*Bigscreen ends here */
